@@ -6,17 +6,14 @@ preRun:
     - npm run react
 postMerge: 
   pattern:
-    - "test/algorithms/geometric-test.js"
-    - "test/algorithms/linear-test.js"
+    - "test/**/*.js"
 preMerge:
   pattern:
-    - "test/algorithms/geometric-test.js"
+    - "test/**/*.js"
 postRun:
   command:
     - node --version
 version: 1.0
-
-
 
 
 
