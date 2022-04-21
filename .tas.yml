@@ -6,10 +6,10 @@ preRun:
     - npm run react
 postMerge: 
   pattern:
-    - "test/**/*.js"
+    - "test/**/*.{js|jsx}"
 preMerge:
   pattern:
-    - "test/**/*.js"
+    - "test/**/*.{js|jsx}"
 postRun:
   command:
     - node --version
