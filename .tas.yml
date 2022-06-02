@@ -7,8 +7,10 @@ preRun:
 postMerge: 
   pattern:
     - "test/**/*.js"
+    - "test/**/*.js"
 preMerge:
   pattern:
+    - "test/**/*.js"
     - "test/**/*.js"
 postRun:
   command:
